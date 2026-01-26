@@ -24,11 +24,22 @@ body {
 
 #cv {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     grid-template-areas:
         "titulo foto"
         "left right";
     gap: 80px;
+}
+
+@media (max-width: 600px) {
+    #cv {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "titulo"
+            "foto"
+            "left"
+            "right";
+    }
 }
 
 #header {

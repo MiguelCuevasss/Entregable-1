@@ -52,6 +52,26 @@ body {
     }
 }
 
+#foto {
+    background: rgb(244, 201, 175);
+    border-radius: 8px;
+}
+
+#header {
+    background: rgb(244, 201, 175);
+    border-radius: 8px;
+}
+
+#izquierda {
+    background: rgb(244, 201, 175);
+    border-radius: 8px;
+}
+
+#derecha {
+    background: rgb(244, 201, 175);
+    border-radius: 8px;
+}
+
 #header {
     grid-area: titulo;
 }
@@ -70,6 +90,20 @@ body {
 }
 
 
-#educacion {
+#centrar {
     justify-self: center;
+}
+
+table {
+    background-color: rgb(244, 215, 196);
+}
+
+th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
 }

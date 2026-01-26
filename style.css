@@ -21,3 +21,12 @@ body {
     background: rgb(255, 248, 238);
     padding: 15px;
 }
+
+#cv {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "titulo foto"
+        "left right";
+    gap: 80px;
+}

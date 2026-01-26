@@ -30,3 +30,20 @@ body {
         "left right";
     gap: 80px;
 }
+
+#header {
+    grid-area: titulo;
+}
+
+#foto {
+    grid-area: foto;
+    justify-self: middle;
+}
+
+#izquierda {
+    grid-area: left;
+}
+
+#derecha {
+    grid-area: right;
+}

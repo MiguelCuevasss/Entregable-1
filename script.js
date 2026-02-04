@@ -18,3 +18,7 @@ function ocultarInformacion() {
     const informacion = document.getElementById("informacion");
     informacion.style.display = informacion.style.display === "none" ? "block" : "none";
 }
+
+function modoOscuro() {
+    document.body.classList.toggle("oscuro");
+}

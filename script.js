@@ -13,3 +13,8 @@ function ocultarEducation() {
     const educacion = document.getElementById("educacion");
     educacion.style.display = educacion.style.display === "none" ? "block" : "none";
 }
+
+function ocultarInformacion() {
+    const informacion = document.getElementById("informacion");
+    informacion.style.display = informacion.style.display === "none" ? "block" : "none";
+}

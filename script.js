@@ -22,3 +22,16 @@ function ocultarInformacion() {
 function modoOscuro() {
     document.body.classList.toggle("oscuro");
 }
+
+function filtrarHabilidades() {
+    const texto = document.getElementById("buscador").value.toLowerCase();
+    const habilidades = document.querySelectorAll("li");
+
+    habilidades.forEach(habilidad => {
+        if (habilidad.textContent.toLowerCase().includes(texto)) {
+            habilidad.style.display = "block";
+        } else {
+            habilidad.style.display = "none";
+        }
+    });
+}
